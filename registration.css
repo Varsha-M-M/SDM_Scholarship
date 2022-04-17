@@ -1,0 +1,133 @@
+
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+   /* background-image:url("background.jpg");*/
+    background-repeat: no-repeat;
+    font-family:Verdana,sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("http://localhost/project2/image.jpg");
+    background-size: cover;
+    color: #fff;
+    }
+    ::placeholder{
+        color: rgb(71, 70, 70);
+    }
+ .headline{
+
+    position:fixed;
+    max-width: 100%;
+    width: 100%;
+    top:0px;
+    height: 100px;
+    background:black ;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    color:white;
+    font-family:Verdana,sans-serif;
+    z-index: 1;
+    }
+    
+    
+.btn{
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+ }
+.row {
+    display:flex;
+    flex-direction:row;
+    
+}
+a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.input-group {
+    flex:1;  
+    display:flex;
+    flex-direction:column; 
+    margin: 10px 5px;
+   /*flex-wrap:wrap ;*/
+    
+}
+.formbody {
+    /*position: relative;*/
+    top: 50%;
+    /*background:white;*/
+    padding:10px 20px;
+    
+}
+
+input[type],select{
+    min-width: 2%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(231, 225, 225, 0.658);
+    }
+
+    input[type=submit] {
+        display: inline-block;
+        width: 10%;
+        background-color: rgb(8, 75, 47);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration:none;
+        text-align: center;
+        min-width: 10em;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgba(9, 243, 146, 0.432);
+            }
+            input[type]:hover{
+            
+              box-shadow:0 0 4px #fff;
+            }
+            select:hover{
+              box-shadow:0 0 4px #fff;
+            }
+
+    /*input[type=number], select {
+        min-width: 15%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 15px;
+        }
+        /*input[type=tel], select {
+            min-width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 15px;
+            }
+            input[type=email], select {
+            min-width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 15px;
+            }*/
