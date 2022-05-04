@@ -10,5 +10,6 @@
     }
     else{
         echo "Sorry, failed while sending mail!";
+        echo "sorry";
     }
 ?>
