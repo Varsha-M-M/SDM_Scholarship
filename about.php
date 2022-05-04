@@ -13,7 +13,7 @@
                     <li><a href="input1.php">Home</a></li>
                     <li><a href="login.php">Login</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+
                 </ul>
             </div>
         </header>
