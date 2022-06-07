@@ -100,7 +100,32 @@ input[type],select{
             select:hover{
               box-shadow:0 0 4px #fff;
             }
+            #box {
+                margin: auto;
+                width: 40%;
+                
+                padding: 50px;
+            }
+            textarea{
+                min-width: 2%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                font-size: 15px;
+                background-color: rgba(231, 225, 225, 0.658);
+            }
+            #sname {
+                min-width: 35%;
+                width: 60%; 
 
+            }
+            #btn{
+                width:40%;
+            }
+            
     /*input[type=number], select {
         min-width: 15%;
         padding: 12px 20px;

@@ -4,7 +4,7 @@
     <head>
         <meta chaeset="utf-8">
         <title>Login Form</title>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <header>
@@ -21,7 +21,7 @@
         <div class="title"><h1>Log in form</h1></div>
         <div class="container">
                 <div class="formbox">
-                    <form action = "button.php" method = post>
+                    <form action = "redirect_login.php" method = post>
                         <p>Username</p>
                         <input type="text" name="usn" placeholder="USN">
                         <p>Password</p>

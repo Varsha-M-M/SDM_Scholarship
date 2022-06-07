@@ -17,6 +17,7 @@
                     <li><a href="login.php">Login</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="admin_login.php">Admin</a></li>
                 </ul>
             </div>
 

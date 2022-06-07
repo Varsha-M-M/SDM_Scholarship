@@ -21,20 +21,20 @@
                     <div class="address details">
                     <i class="fas fa-map-marker-alt"></i>
                     <div class ="topic">Address</div>
-                    <div class="text-one">sdmcet,</div>
-                    <div class="text-two">dharwad</div>
+                    <div class="text-one">SDMCET</div>
+                    <div class="text-two">Kalaghatagi Road,</div>
+                    <div class="text-two">Dharwad 580002</div>
                 </div>
                 <div class="phone details">
                     <i class="fas fa-phone-alt"></i>
                     <div class ="topic">Phone</div>
-                    <div class="text-one">9876543210</div>
-                    <div class="text-two">0123456789</div>
+                    <div class="text-one">836-2447465</div>
                 </div>
                 <div class="email details">
                     <i class="fas fa-envelope"></i>
                     <div class ="topic">Email</div>
-                    <div class="text-one">sdmcet@gmail.com</div>
-                    <div class="text-two">sdmscholarship@gmail.com</div>
+                    <div class="text-one">principal@sdmcet.ac.in</div>
+                    <div class="text-two">sdmcetscholarship1@gmail.com</div>
                 </div>
             </div> 
         </div>

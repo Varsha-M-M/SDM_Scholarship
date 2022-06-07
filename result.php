@@ -1,9 +1,11 @@
 
 <?php
 
-session_start();
+// session_start();
 
-$usn = $_SESSION['id'];
+// $usn = $_SESSION['id'];
+
+$usn =  $_POST['usn'];
 
 ?>
 

@@ -1,12 +1,3 @@
-<!-- <?php
-// $usn = $_POST['usn'];
-
-session_start();
-
-$_SESSION['id'] = $usn;
-?> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +8,12 @@ $_SESSION['id'] = $usn;
 </head>
 <body>
     <ul>
-
-        <li><span><a href="http://localhost/project2/registration.php">REGISTER</a></span></li>
-        <li><span><a href="http://localhost/project2/registration.php">UPDATE</a></span></li>
-        <li><span><a href="http://localhost/project2/delete.php">DELETE</a></span></li>
-        <li><span><a href="http://localhost/project2/result.php">LIST SCHOLAR</a></span></li>
+    <a href="view_scholarship.php"> <li><span>ALL SCHOLARSHIPS</span></li></a>
+    <a href="view_student.php"> <li><span>REGISTERED STUDENTS</span></li></a>
+    <a href="view_particular.php"> <li><span>SCHOLARSHIP DETAILS</span></li></a>
+    <a href="view_particular_scholar.php"> <li><span> PARTICULAR SCHOLARSHIPS</span></li></a>
+    <a href="know_eligible.php"> <li><span>STUDENT ELIGIBLE SCHOLARSHIPS</span></li></a>
+        
       </ul>
 </body>
 </html>
@@ -36,9 +28,7 @@ $_SESSION['id'] = $usn;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3332/2018/8/9/SDM-College-of-Engineering-and-Technology-Dharwad-7.jpg");
     background-size: cover;
 }
-a{
-    color: #fff;
-}
+
 ul {
     padding: 0;
     list-style-type: none;
@@ -46,9 +36,9 @@ ul {
 
 li {
     font-size: 25px;
-    width: 8em;
+    width: 18em;
     height: 2em;
-    color: rgb(162, 240, 192);
+    color: rgb(255, 255, 255);
     border-left: 0.08em solid;
     position: relative;
     margin-top: 0.8em;

@@ -15,12 +15,14 @@
 
 
 <body>
-  <h1>Registration</h1>
+  <div class="headline">
+  <h1>Registration
   <div class="btn">
   <a href="#">Home</a>
                     <a href="login.php">Login</a>
                    <a href="about.php">About</a>
                    <a href="contact.php">Contact</a>
+  </div></h1>
   </div>
 
   <form action ="redirect_register.php" method="post">
@@ -185,10 +187,10 @@
           <input type="radio" name="smem" value="1">yes
           <input type="radio" name="smem" value="0">no
           &emsp;&emsp;
-          <label for="1parent">If have single parent:</label> 
+          <!-- <label for="1parent">If have single parent:</label> 
          <input type="radio" name="1parent" value="1">Yes
          <input type="radio" name="1parent" value="0">No
-        
+         -->
           
          
         <br><br>
