@@ -17,9 +17,11 @@
         <p class="headding">Registration</p>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">home</a></li>
-                <li><a href="#">signin</a></li>
-                <li><a href="#">login</a></li>
+               <li><a href="input1.php">Home</a></li>
+                <li><a href="signin.php">Sign-in</a></li>
+                <li><a href="ligin.php">Login</a></li>
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
