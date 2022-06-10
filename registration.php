@@ -1,4 +1,193 @@
-<!DOCTYPE html>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+   /* background-image:url("background.jpg");*/
+    background-repeat: no-repeat;
+    font-family:Verdana,sans-serif;
+    background: linear-gradient(rgba(49, 49, 49, 0.6),rgba(70, 71, 70, 0.6)), url("http://localhost/project2/image.jpg");
+    background-size: cover;
+    color: #000;
+    }
+    ::placeholder{
+        color: rgb(17, 16, 16);
+    }
+    
+    li,a{
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color: black;
+    }
+    .headding{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 100px;
+    }
+    .nav-links{
+        list-style: none;
+    }
+    .nav-links li{
+        display: inline-block;
+        padding: 0px 20px;
+    
+    }
+    .nav-links li a{
+        transition: all 0.3s ease 0s ;
+    }
+    .nav-links li a:hover{
+        color: rgb(217, 8, 8);
+    }
+  
+
+    
+
+.row {
+    display:flex;
+    flex-direction:row;
+    
+}
+
+
+.input-group {
+    flex:1;  
+    display:flex;
+    flex-direction:column; 
+    margin: 10px 5px;
+   /*flex-wrap:wrap ;*/
+}   
+
+/* .formbody {
+    /*position: relative;*/
+    /*top: 50%;
+    /*background:white;*/
+   /* padding:10px 20px;
+    
+} */ 
+.formbody{
+    position: relative;
+  margin: auto;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    width:fit-content;
+}
+label{
+    color: green;
+    font-weight: 30px;
+}
+
+input[type],select{
+    min-width: 2%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(250, 245, 245, 0.658);
+    }
+
+    input[type=submit] {
+        display: inline-block;
+        width: 10%;
+        background-color: rgb(8, 75, 47);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration:none;
+        text-align: center;
+        min-width: 10em;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgba(9, 243, 146, 0.432);
+            }
+            input[type]:hover{
+            
+              box-shadow:0 0 4px rgb(2, 40, 25);
+            }
+            select:hover{
+              box-shadow:0 0 4px rgb(2, 105, 79);
+            }
+            #box {
+                margin: auto;
+                width: 40%;
+                
+                padding: 50px;
+            }
+            textarea{
+                min-width: 2%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                font-size: 15px;
+                background-color: rgba(231, 225, 225, 0.658);
+            }
+            #sname {
+                min-width: 35%;
+                width: 60%; 
+
+            }
+            #btn{
+                width:40%;
+            }
+            
+    /*input[type=number], select {
+        min-width: 15%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 15px;
+        }
+        /*input[type=tel], select {
+            min-width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 15px;
+            }
+            input[type=email], select {
+            min-width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 15px;
+            }
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <link href="registration.css" rel="stylesheet" type="text/css"/>
@@ -224,3 +413,4 @@
 
 </body>
 </html>
+ -->
