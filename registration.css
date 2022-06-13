@@ -253,4 +253,57 @@ input[type],select{
                 transform: translateX(0.15em);
             } 
 
-   
+   .formBox1
+{   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height:400px;
+    background: #fff; 
+}
+.formBox1 p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #a6af13;
+}
+.formBox1 input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formBox1 input[type="text"],
+.formBox1 input[type="Password"]
+{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline:none;
+    height:40px;
+}
+.formBox1 input[type="text"],
+.formBox1 input[type="Password"]
+{
+    border-bottom: 2px solid #262626
+}
+.formBox1 input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height:40px;
+    color: #fff;
+    background:#262626;
+    cursor: pointer;
+}
+.formBox1 input[type="submit"]:hover
+{
+    background: #a6af13;
+}
+.formBox1 a{
+    color:#262626;
+    font-size: 12px;
+    font-weight: bold;
+}
