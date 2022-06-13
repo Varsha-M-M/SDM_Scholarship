@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="registration.css" rel="stylesheet" type="text/css"/>
-    <title>Update</title>
+    <title>Notify</title>
 </head>
 <body>
-<div class="headline"><h1>NOTIFY
-        <div class="btn">
-          <input type="button" value="HOME"  >
-          <input type="button" value="about">
-           <input type="button" value="contact us">
-        </div>   </h1>  
-    </div> <br><br><br><br><br><br>
+<header>
+        <p class="headding">Notify</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <form action="redirect_view_particular_scholar.php" method="post">
-    <div id="box">
+    <div class="formbody">
+    
     <label id="l1">Notification Type:</label>
     <select name="scholar1" id="scholar1">
         <option value=arrival>Arrival of New Scholarship</option>
@@ -43,7 +48,7 @@
      </select>
       <br>
 
-    <label id="l1">notification message:</label>
+    <label id="l1">notification message:</label><br>
     <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
 
       <!-- <label id="l1">enter USN</label>
@@ -52,6 +57,9 @@
       <input type="submit" value="SEND" id="submitButton">
       </form>
     </div>
+    </div>
+
+    
     
 </body>
 </html>
