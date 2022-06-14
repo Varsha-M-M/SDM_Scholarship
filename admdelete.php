@@ -8,16 +8,23 @@
     <title>Delete</title>
 </head>
 <body>
-    <div class="headline"><h1> Delete Scolarship
-        <div class="btn">
-          <input type="button" value="HOME"  >
-          <input type="button" value="about">
-           <input type="button" value="contact us">
-        </div>   </h1>  
-    </div> <br><br><br><br><br><br>
-    <div id="box">
+<header>
+        <p class="headding">Delete Scholarship</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                <!-- <li><a href="signin.php">Sign-in</a></li>
+                <li><a href="ligin.php">Login</a></li> -->
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="formbody">
+
+    
         <label id="l1">Choose a Scholarship:</label>
-    <select name="scholar" id="scholar">
+        <select name="scholar" id="scholar">
         <option value="fee_concession_for_disabels">Fee Concession for Disabels</option>
         <option value="fee_concession_for_others">Fee Concession for others</option>
         <option value="food_and_accomodation_cat1">Food and Accomodation cat1</option>
