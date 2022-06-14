@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <p class="headding">Delete Scholarship</p>
+        <p class="headding">Add New Scholarship</p>
         <nav>
             <ul class="nav-links">
                 <li><a href="input1.php">Home</a></li>
