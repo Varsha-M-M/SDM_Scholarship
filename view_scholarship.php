@@ -1,17 +1,20 @@
 <html>
 <link href="registration.css" rel="stylesheet" type="text/css"/>
 <body>
-<div class="headline">
-  <h1>All Scholarships
-  <div class="btn">
-  <a href="#">Home</a>
-                    <a href="login.php">Login</a>
-                   <a href="about.php">About</a>
-                   <a href="contact.php">Contact</a>
-  </div></h1>
-  </div>
+<header>
+        <p class="headding">All Scholarships</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                <!-- <li><a href="signin.php">Sign-in</a></li>
+                <li><a href="ligin.php">Login</a></li> -->
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
+    <div class="content-table">
         <table>
             <thead>
                 <tr>
@@ -33,6 +36,53 @@ while($row = mysqli_fetch_assoc($result))
 <?php
 }
 ?>
+
+              
+            </thead>
+            <tbody>
+            </table>
+        </div>
+</body>
+</html>
+
+
+<!-- 
+
+<html>
+<link href="registration.css" rel="stylesheet" type="text/css"/>
+<body>
+<div class="headline">
+  <h1>All Scholarships
+  <div class="btn">
+  <a href="#">Home</a>
+                    <a href="login.php">Login</a>
+                   <a href="about.php">About</a>
+                   <a href="contact.php">Contact</a>
+  </div></h1>
+  </div>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>scholarship id</th>
+                    <th>name of scholarship</th>
+                    <th>LINK</th>
+                </tr>
+<!--                <?php
+$conn = mysqli_connect("localhost","root","","projects");
+$sql =  "SELECT * FROM scholarship_details";
+$result = mysqli_query($conn,$sql);
+while($row = mysqli_fetch_assoc($result))
+{?>
+<tr>
+    <th><?php  echo $row['scholarship_id']; ?></th>
+    <th><?php  echo $row['scholarship_name']; ?></th>
+    <th> <?php  echo "hello"; ?></th>
+</tr>
+<?php
+}
+?> -->
 
               
             </thead>
@@ -108,3 +158,4 @@ while($row = mysqli_fetch_assoc($result))
         font-size: medium;
     }
 </style>
+ -->
