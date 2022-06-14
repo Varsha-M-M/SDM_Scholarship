@@ -17,6 +17,16 @@ $_SESSION['id'] = $usn;
     <title>Document</title>
 </head>
 <body>
+<header>
+        <p class="headding">Student Options</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <ul class="choise">
 
         <li><span><a href="http://localhost/project2/registration.php">REGISTER</a></span></li>
