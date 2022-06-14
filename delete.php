@@ -7,7 +7,7 @@
     </head>
     <body>
     <header>
-        <p class="headding">Delete Scholarship</p>
+        <p class="headding">Delete </p>
         <nav>
             <ul class="nav-links">
                 <li><a href="input1.php">Home</a></li>
