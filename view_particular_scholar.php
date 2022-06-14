@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-        <p class="headding">particular Scholarship</p>
+        <p class="headding">Students Eligible for Particular Scholarship</p>
         <nav>
             <ul class="nav-links">
                 <li><a href="input1.php">Home</a></li>
