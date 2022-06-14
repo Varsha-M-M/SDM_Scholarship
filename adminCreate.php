@@ -10,14 +10,20 @@
 </head>
 
 <body>
-    <div class="headline"><h1>ADD NEW SCHOLARSHIP
-        <div class="btn">
-          <input type="button" value="HOME"  >
-          <input type="button" value="about">
-           <input type="button" value="contact us">
-        </div>   </h1>  
-    </div> <br><br><br><br><br><br>
-    <div id="box">
+    <header>
+        <p class="headding">Delete Scholarship</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                <!-- <li><a href="signin.php">Sign-in</a></li>
+                <li><a href="ligin.php">Login</a></li> -->
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="formbody">
+
         <label>Scholarship Name :</label>
     <input type="text" name="sname" id="sname">
     <br><br>
