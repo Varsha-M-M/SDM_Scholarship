@@ -20,37 +20,32 @@
                     </ul>
                 </nav>
     </header>
-
     <table class="content-table">
         <thead>
             <tr>
-                <th>head1</th>
-                <th>head1</th>
-                <th>head1</th>
-                <th>head1</th>
+                <th>scholarship id</th>
+                        <th>name of scholarship</th>
+                        <th>LINK</th>
             </tr>
             
         </thead>
         <tbody>
-            <tr>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-            </tr>
-            <tr>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-            </tr>
-            <tr>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-                <td>hi</td>
-            </tr>
+            <?php
+                        
+            $conn = mysqli_connect("localhost","root","","projects");
+            $sql =  "SELECT * FROM scholarship_details";
+            $result = mysqli_query($conn,$sql);
+            while($row = mysqli_fetch_assoc($result))
+            {?>
+                <tr>
+                <td><?php  echo $row['scholarship_id']; ?></td>
+                <td><?php  echo $row['scholarship_name']; ?></td>
+                <td> <?php  echo "hello"; ?></td>
+                </tr>
+                <?php
+}
+?>
         </tbody>
     </table>
 </body>
-</html>
+</html> 
