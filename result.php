@@ -104,20 +104,65 @@ WHERE  f.caste=s.caste  AND s.usn='$usn'
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="result.css" rel="stylesheet" type="text/css"/>
+    <link href="registration.css" rel="stylesheet" type="text/css"/>
     <title>Document</title>
 </head>
 <body>
-    <div class="headline"><h1>&nbsp;YOUR ELIGIBLE SCHOLARSHIPS
-    <div class="btn">
-            <a href = "input1.php"><input type="button" value="HOME"  ></a>
-            <a href = "about.php"><input type="button" value="about"></a>
-            <a href = "contact.php"><input type="button" value="contact us"></a>
-             <a href = "login.php"><input type="button" value="logout"></a>
-          </div>
-    </h1></div><br><br><br><br><br><br>
-    <div class="container">
-        <table>
+<header>
+        <p class="headding">YOUR ELIGIBLE SCHOLARSHIPS</p>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="input1.php">Home</a></li>
+                        <li><a href="signin.php">Sign-in</a></li>
+                        <li><a href="ligin.php">Login</a></li>
+                        <li><a href="about.php">About-us</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+    </header>
+    <table class="content-table">
+        
+        <thead>
+                <tr>
+                <th>NAME OF THE SCHOLARSHIP</th>
+                    <th>LINK</th>
+                </tr>
+            </thead>
+            <tbody>
+           <?php
+           
+           
+           if(mysqli_num_rows($result) > 0){
+              while( $row = mysqli_fetch_assoc($result))
+              {?>
+
+            <tr>
+                <td><?php echo $row['name'];?></td>
+                    <td><?php echo "hello"; ?></td>
+            </tr>
+
+
+            <?php
+            }
+           }?>
+</tbody>
+          
+       
+        
+        </table>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+    <!-- <table class="container-table">
+        
             <thead>
                 <tr>
                     <th>NAME OF THE SCHOLARSHIP</th>
@@ -143,7 +188,7 @@ WHERE  f.caste=s.caste  AND s.usn='$usn'
             
             
         </table>
-    </div>
     
-</body>
-</html>
+    
+</body> 
+</html>-->
