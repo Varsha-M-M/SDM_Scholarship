@@ -1,13 +1,28 @@
 <html>
+<link href="registration.css" rel="stylesheet" type="text/css"/>
 <body>
-    <div class="container">
-        <table>
+<header>
+        <p class="headding">All Students</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="input1.php">Home</a></li>
+                <!-- <li><a href="signin.php">Sign-in</a></li>
+                <li><a href="ligin.php">Login</a></li> -->
+                <li><a href="about.php">About-us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <table class="content-table">
+        
             <thead>
-                <tr>   
+            <tr>   
                 <th>USN</th>
                 <th>NAME</th>
                 </tr>
-                </thead>
+            </thead>
+                <tbody>
                
                 <?php
                   $conn = mysqli_connect("localhost","root","","projects");
@@ -18,84 +33,28 @@
 
                   while($row = mysqli_fetch_assoc($result)){
                       ?>
-
-                      <tr>
-                          <th><?php echo $row['usn']; ?></th>
-                          <th><?php echo $row['fname']; ?></th>
+                         <tr>
+                          <td><?php echo $row['usn']; ?></td>
+                          <td><?php echo $row['fname']; ?></td>
                           
                       </tr>
-                  
-                
-                <?php
-                }
+    
 
-                ?>
 
+<?php
+}
+?>
+</tbody>
+              
            
-            <tbody>
+            
             </table>
-        </div>
+        
 </body>
 </html>
 
-<style>
-    body{
-    margin: 0;
-    font-weight: 100;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3332/2018/8/9/SDM-College-of-Engineering-and-Technology-Dharwad-7.jpg");
-    background-size: cover;
-}
-.headline{
 
-    position:fixed;
-    max-width: 100%;
-    width: 100%;
-    top:0px;
-    height: 100px;
-    background:black ;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-    color:white;
-    font-family:Verdana,sans-serif;
-    z-index: 1;
-    }
-    .btn{
-        float: right;
-        margin: 10px;
-     }
-     input[type],select{
-        min-width: 2%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 15px;
-        background-color: rgba(231, 225, 225, 0.658);
-        }
-    .container{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-    }
-    table{
-        width:800px;
-        border-color: rgba(255, 255, 255, 0.2);
-        color: #fff;
-    }
-    th,td{
-        padding: 15px;
-        background-color: rgba(255, 255, 255, 0.2);
-        color: #fff;
 
-    }
-    th{
-        text-align: left;
-    }
-    thead{
-        background-color: rgb(41, 40, 40);
-    }
-</style>
+
+
+
