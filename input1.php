@@ -58,4 +58,7 @@
     background:#fff;
     color: #333;
 }
+    .headding{
+color:black;
+}
 </style>
