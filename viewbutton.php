@@ -23,8 +23,10 @@
      <li><span><a href="view_student.php"> REGISTERED STUDENTS</a></span></li>
      <li><span><a href="view_particular.php">SCHOLARSHIP DETAILS</a></span></li>
      <li><span><a href="view_particular_scholar.php"> PARTICULAR SCHOLARSHIPS</a></span></li>
-     <li><span><a href="know_eligible.php">STUDENT ELIGIBLE SCHOLARSHIPS</a></span></li>
+     <li><span><a href="admin_know_eligible.php">STUDENT ELIGIBLE SCHOLARSHIPS</a></span></li>
         
       </ul>
 </body>
 </html>
+
+   
